@@ -33,5 +33,24 @@ export const dashboardContent = {
             description: "View my professional profile",
             route: "/resume",
         }
-    ]
+    ],
+    currentFocus: {
+        title: "Current Focus",
+        items: [
+            "Building scalable Micro Frontend applications",
+            "Learning advanced React patterns",
+            "Improving TypeScript architecture",
+            "Exploring Module Federation"
+        ]
+    },
+
+    latestLearnings: {
+        title: "Latest Learnings",
+        items: [
+            "Module Federation",
+            "React Performance Optimization",
+            "Advanced TypeScript",
+            "Micro Frontend Architecture"
+        ]
+    }
 };
