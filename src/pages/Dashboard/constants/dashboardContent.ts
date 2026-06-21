@@ -1,7 +1,7 @@
 export const dashboardContent = {
     hero: {
         greeting: "Hello, I'm",
-        name: "Dayal",
+        name: "Dayal Dev",
         role: "Frontend Developer",
         description: "Passionate about building modern web applications and continuously learning new technologies.",
         location: "Bangalore, India",

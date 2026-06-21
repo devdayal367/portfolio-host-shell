@@ -6,7 +6,9 @@ import {
 } from "@ant-design/icons";
 import profilePhoto from "../../../../assets/images/profile-photo2.png";
 
-const HeroSection = () => {
+const HeroSection = (props: any) => {
+
+    const { greeting, name, role, description, location, email } = props.content;
     return (
         <div className="hero-section">
 
@@ -21,30 +23,30 @@ const HeroSection = () => {
                     <div className="hero-section__left">
 
                         <div className="hero-section__intro">
-                            Hi, I'm
+                            {greeting}
                         </div>
 
                         <h1 className="hero-section__name">
-                            Dayal Dev
+                            {name}
                         </h1>
 
                         <h2 className="hero-section__designation">
-                            Frontend Engineer
+                            {role}
                         </h2>
 
                         <p className="hero-section__description">
-                            I build modern, scalable web applications and continuously learn new technologies.
+                            {description}
                         </p>
 
                         <div className="hero-section__contact">
                             <span  className="hero-section__contact-item">
                                 <EnvironmentOutlined />
-                                Bangalore, India
+                                {location}
                             </span>
                             <span className="hero-section__divider">|</span>
                             <span className="hero-section__contact-item">
                                 <MailOutlined />
-                                dayaldev378@gmail.com
+                                {email}
                             </span>
                         </div>
 

@@ -35,8 +35,6 @@
 }
 
 .hero-section__description {
-    max-width: 480px;
-
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.8;
@@ -72,23 +70,12 @@
     justify-content: center;
     border-radius: 50%;
 }
-// .hero-section__photo {
-//     width: 280px;
-//     height: 280px;
 
-//     border-radius: 50%;
-
-//     background: #f3f4f6;
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// }
 .hero-section__photo-wrapper {
     position: relative;
 
-    width: 380px;
-    height: 380px;
+    width: 340px;
+    height: 340px;
 }
 
 .hero-section__photo-bg {
@@ -102,6 +89,7 @@
 
     overflow: hidden;
 }
+
 .hero-section__photo {
     position: absolute;
 
