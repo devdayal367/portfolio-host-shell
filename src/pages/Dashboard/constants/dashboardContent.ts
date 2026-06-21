@@ -52,5 +52,12 @@ export const dashboardContent = {
             "Advanced TypeScript",
             "Micro Frontend Architecture"
         ]
-    }
+    },
+    blogs: [
+        {
+            title: "RxJS Subject vs BehaviorSubject vs ReplaySubject",
+            date: "May 12, 2024",
+            route: "/blog/rxjs-subject-vs-behaviorsubject"
+        }
+    ]
 };

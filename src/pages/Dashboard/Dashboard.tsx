@@ -39,7 +39,9 @@ const Dashboard = () => {
             </section>
 
             <section className="dashboard__blog">
-                <BlogSection />
+                <BlogSection
+                    blogs={dashboardContent.blogs}
+                />
             </section>
         </div>
     );
