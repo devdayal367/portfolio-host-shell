@@ -15,10 +15,21 @@
     min-height: 250px;
 }
 
-.dashboard__current-focus,
-.dashboard__latest-learnings,
+// .dashboard__current-focus,
+// .dashboard__latest-learnings,
 .dashboard__blog {
     min-height: 350px;
     background: #ffffff;
     border-radius: 24px;
+}
+.dashboard__insights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .dashboard__insights {
+        grid-template-columns: 1fr;
+    }
 }

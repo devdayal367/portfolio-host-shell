@@ -19,12 +19,23 @@ const Dashboard = () => {
                 <NavigationCards cards={dashboardContent.navigationCards} />
             </section>
 
-            <section className="dashboard__current-focus">
+            {/* <section className="dashboard__current-focus">
                 <CurrentFocus />
             </section>
 
             <section className="dashboard__latest-learnings">
                 <LatestLearnings />
+            </section> */}
+            <section className="dashboard__insights">
+
+                <CurrentFocus
+                    content={dashboardContent.currentFocus}
+                />
+
+                <LatestLearnings
+                    content={dashboardContent.latestLearnings}
+                />
+
             </section>
 
             <section className="dashboard__blog">
