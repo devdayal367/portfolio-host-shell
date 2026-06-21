@@ -9,11 +9,25 @@ import BlogSection from './components/BlogSection/BlogSection';
 const Dashboard = () => {
     return (
         <div className="dashboard">
-            <HeroSection />
-            <NavigationCards />
-            <CurrentFocus />
-            <LatestLearnings />
-            <BlogSection />
+            <section className="dashboard__hero">
+                <HeroSection />
+            </section>
+
+            <section className="dashboard__navigation-cards">
+                <NavigationCards />
+            </section>
+
+            <section className="dashboard__current-focus">
+                <CurrentFocus />
+            </section>
+
+            <section className="dashboard__latest-learnings">
+                <LatestLearnings />
+            </section>
+
+            <section className="dashboard__blog">
+                <BlogSection />
+            </section>
         </div>
     );
 };
